@@ -1,3 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hello Android</string>
+    <string name="app_name">SSH VPN</string>
+    <string name="app_description">SSH-based VPN with full device routing</string>
+    <string name="notification_title">SSH VPN</string>
+    <string name="notification_connecting">Connecting...</string>
+    <string name="notification_connected">Connected</string>
+    <string name="notification_disconnected">Disconnected</string>
+    <string name="action_disconnect">Disconnect</string>
+    <string name="action_connect">Connect</string>
 </resources>
