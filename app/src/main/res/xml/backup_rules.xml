@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<full-backup-content>
-    <exclude domain="sharedpref" path=".*" />
-    <exclude domain="cache" path=".*" />
-</full-backup-content>
+<resources>
+    <!-- This file is used by BackupAgentHelper to determine which files to backup.
+         See https://developer.android.com/guide/topics/data/backup for more information. -->
+    <include domain="sharedpref" path="." />
+</resources>
